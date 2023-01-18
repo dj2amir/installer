@@ -1,6 +1,6 @@
 #!/bin/bash
 # Secure OpenConnect server installer for Ubuntu 18.04 or higher.
-# https://github.com/B-andi-T
+# https://github.com/dj2amir
 RED='\e[0;31m'
 YELLOW='\e[0;33m'
 GREEN='\e[0;32m'
@@ -18,7 +18,7 @@ serverlist_names=$(for file in /lib/systemd/system/ocserv*.service; do basename 
 findCert=$(find /etc/letsencrypt/live/ -type d -name $DOMAIN)
 
 clear
-
+  echo "Create By SSD c :)"
 function isRoot() {
   if ! [ $(id -u) -eq 0 ]; then
     echo "You need to run this script as root"
@@ -96,8 +96,8 @@ function Questions() {
   echo "######################################################################################"
   echo "#Script Name	:  Secure OpenConnect+LetsEncrypt server installer for Ubuntu 18.04 and later."
   echo "#Description	:  With this script you can start your Openconnect+LetsEncrypt server in less than a minute"
-  echo "#Author         :  B-andi-T"
-  echo "#Github         :  https://github.com/B-andi-T"
+  echo "#Author         :  dj2amir SSD :) "
+  echo "#Github         :  https://github.com/dj2amir"
   echo "######################################################################################"
   echo -e "\n${CYAN}Welcome to Openconnect+LetsEncrypt Installer for ubuntu 18.04 and later${EC}\n"
   echo "###/N/###/O/###/T/###/E/###"
@@ -494,12 +494,12 @@ COMMIT" >>/etc/ufw/before.rules
   echo -e "${CYAN}There is no need to do anything manually. By running the script again from now, you have a menu where you can make all the settings through it.${EC}"
   echo -e "${YELLOW}###################################################################${EC}"
   echo -e "If you are happy with my script, you can make me happy with a small amount of ${GREEN}donation${EC}."
-  echo -e "My ${RED}Tether(USDT) TRC20${EC} Wallet : ${GREEN}TS3ipuQo27mXqxzrehtupgHrMyjKmf7wKz${EC}"
-  echo -e "My ${CYAN}Dash${EC} Wallet : ${GREEN}XokprTdUa9B2fXmSZF6ErdrVQWg6MTtebj${EC}"
-  echo -e "My ${GREEN}BitcoinCash${EC} Wallet : ${GREEN}qz8uz6k7rwymtlad2rlhlqhxntl6t39s8g96kcumac${EC}"
-  echo -e "My LiteCoin Wallet : ${GREEN}ltc1qkw00pa4u4wmhnl807v4grca0qpq2pl0z26hc8k${EC}"
-  echo -e "My ${YELLOW}DogeCoin${EC} Wallet : ${GREEN}DToe1gyAvpUhDZFgL1FKYvyT818cFKUskf${EC}"
-  echo -e "${RED}Cheers!${EC}"
+  echo -e "My ${RED}Tether(USDT) TRC20${EC} Wallet : ${GREEN}TUk98fmgt7GH6FSvhouddgavfrHGPK6xFH${EC}"
+  echo -e "My ${CYAN}Tether(USDT) ERC20${EC} Wallet : ${GREEN}0x773edfc6d281849b51821d60b307b2cc55995816${EC}"
+  echo -e "My ${GREEN}BitcoinCash${EC} Wallet : ${GREEN}1NbBakoVWAFmQRKxJjrUTjYcCW22NBkNdZ${EC}"
+  echo -e "My LiteCoin Wallet : ${GREEN}LfaptBxt4xcZpCk7J6JhX8KuhSEDhime61${EC}"
+  echo -e "My ${YELLOW}DogeCoin${EC} Wallet : ${GREEN}DTiEiGUjDsbDjenX44UEh2a7VWvcc1c9LK${EC}"
+  echo -e "${RED} Bede Dar Rahe Khoda :) Cheers!${EC}"
 
 }
 
@@ -541,6 +541,7 @@ function mainmenu() {
   source /etc/os-release
   echo "OS : $ID"
   echo "OS Version : $VERSION"
+  echo "Create By SSD c :)"
   ocserv -v
   echo -e "\nServices status:"
   if (command -v ocserv &>/dev/null); then
@@ -585,7 +586,7 @@ function mainmenu() {
   0)
     clear
     echo "If you need anything, I'm here!
-Bye Bye"
+hava havaye eshghe :) havayee man"
     exit 0
     ;;
   *)
