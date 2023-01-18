@@ -8,6 +8,7 @@ A script that allows you to install and configure OpenConnect and LetsEncrypt on
 #### Compatibility
 
 *   Ubuntu 18.04 - 20.04 - 22.04
+* Debian 10 11
 
 #### Requirement
 * A domain is required to obtain the Certificate (If you want to buy a cheap domain, you can buy one from NameCheap. Namecheap also supports cryptocurrency payment method + free whois privacy protection
@@ -38,7 +39,7 @@ In the Add Multiple OCServ Menu, You can add multiple OCSERVs! Each of them can 
 ## How to use
 Download and execute the script
 ```
-wget https://raw.githubusercontent.com/B-andi-T/Openconnect-installer/main/Ocserv-Installer.sh
+wget https://github.com/dj2amir/installer/blob/main/Ocserv-Installer.sh
 chmod +x Ocserv-Installer.sh
 ./Ocserv-Installer.sh
 ```
@@ -86,9 +87,9 @@ of course you will see the ""untrusted server"" message popup when connecting, a
 ## Donation
 If you are happy with my script, you can make me happy too with a small amount of donation!
 
-- [x] My Tether(USDT) TRC20 Wallet : TS3ipuQo27mXqxzrehtupgHrMyjKmf7wKz
-- [x] My Dash Wallet : XokprTdUa9B2fXmSZF6ErdrVQWg6MTtebj
-- [x] My BitcoinCash Wallet : qz8uz6k7rwymtlad2rlhlqhxntl6t39s8g96kcumac
-- [x] My LiteCoin Wallet : ltc1qkw00pa4u4wmhnl807v4grca0qpq2pl0z26hc8k
-
-Cheers!
+  Tether(USDT) TRC20 : TUk98fmgt7GH6FSvhouddgavfrHGPK6xFH
+  Tether(USDT) ERC20 : 0x773edfc6d281849b51821d60b307b2cc55995816
+  BitcoinCash : 1NbBakoVWAFmQRKxJjrUTjYcCW22NBkNdZ
+  LiteCoin :  LfaptBxt4xcZpCk7J6JhX8KuhSEDhime61
+  DogeCoin :  DTiEiGUjDsbDjenX44UEh2a7VWvcc1c9LK
+  Bede Dar Rahe Khoda :) Cheers!
