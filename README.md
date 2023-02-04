@@ -39,7 +39,7 @@ In the Add Multiple OCServ Menu, You can add multiple OCSERVs! Each of them can 
 ## How to use
 Download and execute the script
 ```
-wget https://github.com/dj2amir/installer/blob/main/Ocserv-Installer.sh
+wget https://raw.githubusercontent.com/dj2amir/installer/main/Ocserv-Installer.sh
 chmod +x Ocserv-Installer.sh
 ./Ocserv-Installer.sh
 ```
