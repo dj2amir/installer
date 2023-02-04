@@ -33,7 +33,7 @@ function checkOS() {
     testvercomp $VERSION_ID "18.04" "<"
     echo "OS : $ID"
     echo "OS Version : $VERSION"
-    if [[ $ID != "ubuntu" ] || [ $ID != "debian" ]]; then
+    if [[ $ID != "ubuntu" ] or [ $ID != "debian" ]]; then
       echo -e "Your OS does not supported for using this script. Only Ubuntu 18.04 or higher is supported."
       exit
     fi
